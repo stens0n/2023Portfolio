@@ -13,8 +13,22 @@ import Python from '../assets/Python.png';
 
 const Skills = () => {
   return (
-    <div>
+    <div name="skills" class="bg-[#0a192f]" >
+        {/* Container */}
+        <div>
+            <div>
+                <p>Experience</p>
+                <p>Technologies I've worked with</p>
+            </div>
 
+            <div>
+                <div>
+                    <img src={HTML} alt="HTML icon" />
+                    <p>HTML</p>
+                </div>
+            </div>
+
+        </div>
     </div>
   )
 }
