@@ -13,17 +13,17 @@ import Python from '../assets/Python.png';
 
 const Skills = () => {
   return (
-    <div name="skills" class="bg-[#0a192f]" >
+    <div name="skills" class="bg-[#0a192f] text-gray-300 " >
         {/* Container */}
-        <div>
+        <div class="max-w-[1000px] max-auto p-4 flex flex-col justify-center w-full h-full">
             <div>
-                <p>Experience</p>
-                <p>Technologies I've worked with</p>
+                <p class="text-4xl font-bold inline border-b-4 border-yellow-500" >Experience</p>
+                <p class="py-4" >// Technologies I've worked with</p>
             </div>
 
-            <div>
+            <div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8" >
                 <div>
-                    <img src={HTML} alt="HTML icon" />
+                    <img class="w-20 mx-auto" src={HTML} alt="HTML icon" />
                     <p>HTML</p>
                 </div>
             </div>

@@ -12,7 +12,7 @@ const About = () => {
                 </div>
                 <div class="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4" >
                     <div class=" sm:text-right text-4xl font-bold">
-                        <p>Anthony's Career Mission Statement</p>
+                        <p>Career Mission Statement</p>
                     </div>
                     <div>
                         <p> I am passionate about utilizing my skills to design and develop 
