@@ -1,6 +1,6 @@
 import React from 'react'
-import workImg from '../assets/projects/workImg.jpeg'
-import realEstate from '../assets/projects/realestate.jpg'
+import KyleD from '../assets/projects/KyleDavisPhoto.webp'
+import StenBank from '../assets/projects/StensonBank.png'
 
 const Work = () => {
   return (
@@ -15,7 +15,7 @@ const Work = () => {
             <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4" >
 
                 {/* Grid Item */}
-                <div style={{backgroundImage: `url(${workImg})`}} 
+                <div style={{backgroundImage: `url(${StenBank})`}} 
                 class="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div" 
                 >
                 
@@ -35,7 +35,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${realEstate})`}} 
+                <div style={{backgroundImage: `url(${KyleD})`}} 
                 class="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div" 
                 >
                 
