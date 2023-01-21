@@ -1,7 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import {Link} from 'react-scroll';
 
 const Home = () => {
+  const  [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
+
   return (
     <div name='home' class='w-full h-screen bg-[#0a192f]' >
         {/* Container */}
@@ -13,11 +17,14 @@ const Home = () => {
             Specializing in crafting responsive digital experiences that augment conversion rates 
             and foster user engagement through intuitive design.</p>
             <div>
-                <button class='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600'>View Work
-                <span class="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight class="ml-3 "/>
-                </span> 
-                </button>
+              <Link to='work' class='text-white group border-2 px-6 py-3 my-2 w-1/12 min-w-min flex items-center hover:bg-yellow-600 '
+               onClick={handleClick} smooth={true} duration={500} >
+              View Work
+              <span class="group-hover:rotate-90 duration-300"></span>
+              <HiArrowNarrowRight class="group-hover:rotate-90 duration-300 ml-3 min-w-min "/>
+              </Link>
+              <a href="work">
+              </a>
             </div>
         </div>
     </div>
