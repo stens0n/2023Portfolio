@@ -23,12 +23,19 @@ const DopeFooter = () => {
                 </div>
                 <div class="w-10/12 m-auto  mt-16 space-y-6 text-center sm:text-left sm:w-5/12 sm:mt-auto">
 
-                    <span class="block text-gray-300">Made with ❤️ by Anthony Stenson, 2023</span>
+                    <span class="block text-gray-300">Made with 💛 by Anthony Stenson, 2023
+                    
+                    <h2 class="text-yellow-500 ">Steeler Nation 🏈</h2>
+                    </span>
+                    
 
                 </div>
+                
             </div>
+           
         </div>
     </div>
+    
     <div aria-hidden="true" class="absolute h-full inset-0 flex items-center">
         <div aria-hidden="true" class="bg-layers bg-scale w-56 h-56 m-auto blur-xl bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 rounded-full md:w-[30rem] md:h-[30rem] md:blur-3xl"></div>
     </div>
